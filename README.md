@@ -6,20 +6,20 @@ A react portfolio made using bleeding edge Javascript runtime engine [BunJS](htt
 
 ## Preview
 
-![chamalspace portfolio!](/assets/images/imagePreview.png "chamalspace preview")
+![chamalspace portfolio!](/src/assets/images/imagePreview.png "chamalspace preview")
 
 ## Technolegies used
 
-* Vite
-* React (JSX)
-* CSS
-* BunJS
-* MUI library
-* EMailJS
-* Axios
-* GitHub REST API
-* Vercel
-* eslint
+- Vite
+- React (JSX)
+- CSS
+- BunJS
+- MUI library
+- EMailJS
+- Axios
+- GitHub REST API
+- Vercel
+- eslint
 
 ## How to run and build yourself
 
@@ -30,7 +30,7 @@ A react portfolio made using bleeding edge Javascript runtime engine [BunJS](htt
 3: Create a .env file in the root directory for the secrets. (Take below template for the .env file) <br><br>
 
     # Github API Key
-    
+
     VITE_GITHUB_API_KEY = YouKey
 
     # EmailJS keys
@@ -38,6 +38,7 @@ A react portfolio made using bleeding edge Javascript runtime engine [BunJS](htt
     VITE_EMAILJS_SERVICE_ID = Yourkey
     VITE_EMAILJS_TEMPLATE_ID = YourKey
     VITE_EMAILJS_PUBLIC_KEY = YourKey
+
 <br>
 
 4: Run the development build <br><br>
@@ -51,3 +52,6 @@ A react portfolio made using bleeding edge Javascript runtime engine [BunJS](htt
 I have tested this on vercel and it works without a hassle. Linking it with a github repo will automate the production process so whenever you push a change to the repo, vercel will detect it and automatically start deploying a production build.
 
 ### Thank you for taking time to read the ReadMe ❤️
+
+You can support me if think my work is helpful 😇 <br><br>
+<a href="https://www.buymeacoffee.com/chamalrandika" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
