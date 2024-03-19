@@ -27,7 +27,7 @@ const Projects = () => {
       try {
         const response = await axios.get("https://api.github.com/user/repos", {
           headers: {
-            Authorization: "Bearer " + import.meta.env.VITE_GITHUB_API_KEY,
+            Authorization: "Bearer " +import.meta.env.VITE_GITHUB_API_KEY,
           },
         });
         const repositoriesWithoutForks = response.data.filter(
@@ -53,7 +53,7 @@ const Projects = () => {
         `https://api.github.com/repos/${repo.owner.login}/${repo.name}`,
         {
           headers: {
-            Authorization: "Bearer " + import.meta.env.VITE_GITHUB_API_KEY,
+            Authorization: "Bearer " +import.meta.env.VITE_GITHUB_API_KEY,
           },
         }
       );
