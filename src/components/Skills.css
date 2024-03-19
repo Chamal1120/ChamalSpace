@@ -1,0 +1,102 @@
+.skillsBgContainer{
+  background-color: #320e50;
+}
+
+.skillContainer {
+  padding: 10vh 60px;
+  max-width: 1200px;
+  margin: 0 auto !important; 
+}
+
+.skillTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 10px 30px;
+  margin: 0 0 0 0 !important;
+}
+
+@media screen and (max-width: 769px) {
+  .skillContainer {
+    padding: 10vh 40px;
+  }
+
+  .skillTitle {
+    font-size: 2.5rem;
+    padding: 10px 0px;
+    font-weight: 600;
+  }
+}
+
+/* .skillFlexBox {
+  padding: 1rem 0rem 1rem 0rem;
+} */
+
+.skillFlexBoxTitleContainer{
+  text-align: center;
+}
+
+.skillFlexBoxTitle {
+  display: inline-block;
+  font-size: 2rem;
+  color: #ffffff;
+  padding-bottom: 0.5rem;
+  margin: 4rem 0rem 4rem 0rem;
+  border-bottom: 2px solid #ffffff; 
+}
+
+.skillFlexBox1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem 2rem;
+}
+
+.skillFlexBox1 > div {
+  flex: 0 1 30%;
+  text-align: center;
+  background-color: #e3dcfa;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.devText{
+  color: #320e50;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.devIcon{
+  vertical-align: middle;
+  font-size: 2rem;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 769px) {
+  .skillFlexBox1 {
+    justify-content: center;
+  }
+
+  .skillFlexBox1 > div {
+    flex: 3 1 30%;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .skillFlexBox1 {
+    justify-content: center;
+  }
+
+  .skillFlexBox1 > div {
+    flex: 3 1 30%;
+    font-size: 0.7rem;
+  }
+  .skillFlexBoxTitle{
+    font-size: 1.3rem;
+  }
+}

@@ -1,0 +1,122 @@
+.contactsBgContainer {
+  background-color: rgb(38, 4, 48);
+  padding: 2vh 0;
+}
+
+.formContainer {
+  padding: 0px 60px;
+  max-width: 1200px;
+  margin: 0 auto !important;
+}
+
+.formBgOuter {
+  background-color: rgb(59, 14, 82);
+  border-radius: 0.5rem;
+}
+
+.formTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #ffffff;
+  padding: 10px 30px;
+  border-radius: 8px;
+  margin: 2rem 0 2rem 0 !important;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  /* max-width: 400px; */
+  margin: 1rem 0 1rem 0;
+  padding: 30px;
+}
+
+label {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: none;
+  background-color: rgb(222, 204, 239);
+  border-radius: .3rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #cc52b0;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 2rem 0 1rem 0;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 800;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #aa1c89;
+}
+
+.popupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.723);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  text-align: center;
+}
+
+.popup button {
+  padding: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 769px) {
+  .formContainer {
+    padding: 0px 40px;
+  }
+
+  .formTitle {
+    font-size: 2.5rem;
+    font-weight: 700 !important;
+    padding: 10px 0px;
+    font-weight: 600;
+  }
+
+  label {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #ffffff;
+  }
+}

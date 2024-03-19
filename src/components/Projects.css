@@ -1,0 +1,108 @@
+.ProjBgContainer {
+  background-color: #3d0928;
+} 
+
+.mainContainer {
+  padding: 5vh 60px;
+  max-width: 1200px;
+  margin: 0 auto !important;
+  padding-bottom: 20vh;
+}
+
+.projectsTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 10px 30px;
+  border-radius: 8px;
+  margin: 5rem 0 3rem 0;
+}
+
+.projectsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem 3.1rem;
+}
+
+.projectsContainer > div {
+  flex: 4 1 30%;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: #a92a7c;
+}
+
+.repoName {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.repoDiscript {
+  font-size: 1rem;
+  margin-bottom: .5rem;
+}
+
+.repoTopics{
+  font-size: 0.8rem;
+  padding-top: 0.5rem;
+}
+
+.repoDateUpdated{
+  font-size: 0.8rem;
+}
+
+.projectCard .repoURL {
+  font-size: 0.8rem;
+  color: #ffffff;
+}
+
+.projectCard .repoURL2 {
+  color: #f9cce4;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.projectCard a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .mainContainer {
+    padding: 1vh 40px;
+    padding-bottom: 20vh;
+  }
+
+  .projectsTitle {
+    font-size: 2.5rem;
+    padding: 10px 0px;
+    font-weight: 600;
+    margin: 4rem 0 4rem 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .projectsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem 3.1rem;
+  }
+
+  .projectsContainer > div {
+    flex: 0 1 100%;
+    font-size: 0.9rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+
+  .repoName {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+}

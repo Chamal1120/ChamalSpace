@@ -1,0 +1,130 @@
+.outerHeroBg {
+  background: linear-gradient(to right, #1c0020, #19003f);
+}
+
+.heroContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 15vh 60px;
+  max-width: 1200px;
+  margin: 0 auto !important;
+  min-height: 100vh;
+}
+
+.heroContent {
+  flex: 1;
+  max-width: 50%;
+}
+
+.heroImage {
+  flex: 1;
+  max-width: 40%;
+}
+
+#image1 {
+  width: 450px;
+}
+
+@media (max-width: 992px){
+  .heroImage {
+    max-width: 300px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroContainer {
+    flex-direction: column;
+    padding: 15vh 40px;
+  }
+
+  .heroContent {
+    flex: 1;
+    max-width: 100%;
+    min-height: 100vh;
+  }
+
+  .heroImage {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  #image1 {
+    width: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  .heroImage {
+    max-width: 100%;
+  }
+  #image1 {
+    width: calc(100vw - 40%);
+  }
+}
+
+.greet1 {
+  font-size: 9rem;
+  font-weight: 600;
+}
+
+.greet2 {
+  font-size: 3rem;
+  color: #e4e4e4;
+}
+
+.highlightsContainer {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1.8rem;
+  padding-top: 5vh;
+}
+
+.highlights1 {
+  color: #ffffff;
+}
+
+.highlights2 {
+  background-color: aliceblue;
+  padding-left: 5px;
+  color: #dd38b7;
+}
+
+.aboutMe {
+  margin-top: 5vh;
+  color: #ffffff;
+}
+
+.aboutMeInfo {
+  color: #b4b4b4;
+}
+
+.resumeButton {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+@media (max-width: 992px) {
+  .greet1 {
+    font-size: 6rem;
+    font-weight: 600;
+  }
+  .highlightsContainer {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 6rem;
+  }
+
+  .greet2 {
+    padding-top: 0;
+    font-size: 3rem;
+  }
+
+  .highlightsContainer {
+    font-size: 1.5rem;
+  }
+}
