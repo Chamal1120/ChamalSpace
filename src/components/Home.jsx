@@ -9,6 +9,7 @@ import Button from "@mui/material/Button";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { LinearTextGradient } from "react-text-gradients-and-animations";
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
+import MyPDF from "../assets/resume/resume.pdf";
 
 const theme = createTheme({
   palette: {
@@ -127,9 +128,9 @@ const Home = () => {
                   }}
                   disableElevation
                   onClick={() => {
-                    window.location.href =
-                      "src/assets/resume/Resume_Chamal.pdf";
+                    window.open(MyPDF, "_blank");
                   }}
+                  download="resume.pdf"
                 >
                   My Resume
                 </Button>
